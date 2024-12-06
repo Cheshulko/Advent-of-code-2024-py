@@ -5,3 +5,4 @@
 - [Day 3: Mull It Over](src/day03.py)
 - [Day 4: Ceres Search](src/day04.py)
 - [Day 5: Print Queue](src/day05.py)
+- [Day 6: Guard Gallivant](src/day06.py)
