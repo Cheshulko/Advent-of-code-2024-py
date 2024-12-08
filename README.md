@@ -7,3 +7,4 @@
 - [Day 5: Print Queue](src/day05.py)
 - [Day 6: Guard Gallivant](src/day06.py)
 - [Day 7: Bridge Repair](src/day07.py)
+- [Day 8: Resonant Collinearity](src/day08.py)
