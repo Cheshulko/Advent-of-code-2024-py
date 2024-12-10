@@ -9,3 +9,4 @@
 - [Day 7: Bridge Repair](src/day07.py)
 - [Day 8: Resonant Collinearity](src/day08.py)
 - [Day 9: Disk Fragmenter](src/day09.py)
+- [Day 10: Hoof It](src/day10.py)
