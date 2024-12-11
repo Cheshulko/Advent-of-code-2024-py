@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import math
+import functools
 
 Stone = tuple[int, int]
 
@@ -21,19 +22,15 @@ def next_stones(stone: int) -> list[int]:
         else:
             return [stone * 2024]
 
-def solve_for_stone(stone: Stone, dp: dict[Stone, int]) -> int:
-    if stone in dp:
-        return dp[stone]
-    
+@functools.cache
+def solve_for_stone(stone: Stone) -> int:
     if stone[1] == 0:
         return 1
     
     ans = sum(
-        solve_for_stone((num, stone[1] - 1), dp) 
+        solve_for_stone((num, stone[1] - 1)) 
         for num in next_stones(stone[0])
     )
-
-    dp[stone] = ans
 
     return ans
 
@@ -41,10 +38,9 @@ def solve(input: list[str], blinks: int) -> int:
     assert len(input) == 1
     input = input[0]
 
-    dp = {}
     stones = [(stone, blinks) for stone in map(int, input.split(" "))]
     ans = sum(
-        solve_for_stone(stone, dp) 
+        solve_for_stone(stone) 
         for stone in stones
     )
 
