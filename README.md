@@ -11,3 +11,4 @@
 - [Day 9: Disk Fragmenter](src/day09.py)
 - [Day 10: Hoof It](src/day10.py)
 - [Day 11: Plutonian Pebbles](src/day11.py)
+- [Day 12: Garden Groups](src/day12.py)
