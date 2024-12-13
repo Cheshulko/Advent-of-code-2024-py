@@ -32,13 +32,13 @@ def solve(input: list[str], price_boost = 0) -> int:
         prize = list(map(lambda p: int(p) + price_boost, prize))
 
         b_lcm = lcm(button_b[0], button_b[1])
-        cx = b_lcm / button_b[0]
-        cy = b_lcm / button_b[1]
+        cx = b_lcm // button_b[0]
+        cy = b_lcm // button_b[1]
 
         if button_a[1] * cy - button_a[0] * cx == 0:
             ''' Invertible matrix 
 
-            For such case we need to solve simple linear programming problem:
+                For such case we need to solve simple linear programming problem:
                     dx_a * pressed_a + dx_b * pressed_b == y
                     price_a * pressed_a + price_b * pressed_b -> min
                 Without loss of generality, assume that `a` button is better than `b`:
