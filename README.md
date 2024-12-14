@@ -13,3 +13,4 @@
 - [Day 11: Plutonian Pebbles](src/day11.py)
 - [Day 12: Garden Groups](src/day12.py)
 - [Day 13: Claw Contraption](src/day13.py)
+- [Day 14: Restroom Redoubt](src/day14.py)
