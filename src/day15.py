@@ -1,13 +1,7 @@
 #!/usr/bin/env python3
 
-import math
-import collections
 import functools
-import operator
-import re
-import itertools
-from typing import Iterable, List, Optional
-from enum import Enum
+from typing import Optional
 from collections import deque
 
 @functools.total_ordering
