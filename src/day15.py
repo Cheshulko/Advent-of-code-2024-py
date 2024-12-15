@@ -85,7 +85,6 @@ class Grid:
 
         if (pushed_points := self._get_pushed_points(dir)) is not None:
             for point in pushed_points:
-                
                 self.__setitem__(point + dir, pushed_points[point])
                 if point - dir not in pushed_points:
                     self.__setitem__(point, ".")
@@ -102,13 +101,12 @@ class Grid:
         return ans
     
     def _robot_point(self) -> Point:
-        robot = Point((-1, -1))
         for i, row in enumerate(self.grid):
             for j, c in enumerate(row):
                 if c == "@":
-                    robot = Point((i, j))
+                    return Point((i, j))
 
-        return robot
+        assert False
     
     def _is_obstacle(self, point: Point) -> bool:
         return self.__getitem__(point) == "#"
