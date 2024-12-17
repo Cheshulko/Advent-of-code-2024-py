@@ -16,3 +16,4 @@
 - [Day 14: Restroom Redoubt](src/day14.py)
 - [Day 15: Warehouse Woes](src/day15.py)
 - [Day 16: Reindeer Maze](src/day16.py)
+- [Day 17: Chronospatial Computer](src/day17.py)
