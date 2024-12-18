@@ -17,3 +17,4 @@
 - [Day 15: Warehouse Woes](src/day15.py)
 - [Day 16: Reindeer Maze](src/day16.py)
 - [Day 17: Chronospatial Computer](src/day17.py)
+- [Day 18: RAM Run](src/day18.py)
