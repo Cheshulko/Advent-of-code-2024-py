@@ -18,3 +18,4 @@
 - [Day 16: Reindeer Maze](src/day16.py)
 - [Day 17: Chronospatial Computer](src/day17.py)
 - [Day 18: RAM Run](src/day18.py)
+- [Day 19: Linen Layout](src/day19.py)
