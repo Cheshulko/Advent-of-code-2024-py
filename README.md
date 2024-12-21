@@ -20,3 +20,4 @@
 - [Day 18: RAM Run](src/day18.py)
 - [Day 19: Linen Layout](src/day19.py)
 - [Day 20: Race Condition](src/day20.py)
+- [Day 21: Keypad Conundrum](src/day21.py)
