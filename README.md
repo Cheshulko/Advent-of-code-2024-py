@@ -21,3 +21,4 @@
 - [Day 19: Linen Layout](src/day19.py)
 - [Day 20: Race Condition](src/day20.py)
 - [Day 21: Keypad Conundrum](src/day21.py)
+- [Day 22: Monkey Market](src/day22.py)
