@@ -22,3 +22,4 @@
 - [Day 20: Race Condition](src/day20.py)
 - [Day 21: Keypad Conundrum](src/day21.py)
 - [Day 22: Monkey Market](src/day22.py)
+- [Day 23: LAN Party](src/day23.py)
