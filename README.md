@@ -24,3 +24,4 @@
 - [Day 22: Monkey Market](src/day22.py)
 - [Day 23: LAN Party](src/day23.py)
 - [Day 24: Crossed Wires](src/day24.py)
+- [Day 25: Code Chronicle](src/day25.py)
