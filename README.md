@@ -1,5 +1,7 @@
 # AdventOfCode2024
 
+<img src="https://github.com/Cheshulko/Advent-of-code-2024-py/blob/main/assets/img.png?raw=true" width="500"/>
+
 - [Day 1: Historian Hysteria](src/day01.py)
 - [Day 2: Red-Nosed Reports](src/day02.py)
 - [Day 3: Mull It Over](src/day03.py)
